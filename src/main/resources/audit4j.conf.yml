@@ -4,6 +4,7 @@ version: 1.0.0.RELEASE
 handlers:
 - !org.audit4j.core.handler.ConsoleAuditHandler {}
 - !org.audit4j.core.handler.file.FileAuditHandler {}
+- !org.audit4j.handler.db.DatabaseAuditHandler{}
 layout: !org.audit4j.core.SecureLayout {}
 metaData: !org.audit4j.core.DummyMetaData {}
 properties:
