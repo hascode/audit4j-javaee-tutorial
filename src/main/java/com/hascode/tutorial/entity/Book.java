@@ -7,6 +7,11 @@ public class Book {
 	private String id;
 	private String title;
 
+	public Book(final String id, final String title) {
+		this.id = id;
+		this.title = title;
+	}
+
 	public String getId() {
 		return id;
 	}
